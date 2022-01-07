@@ -1,0 +1,25 @@
+.notebox
+{
+   height: 60px;
+   width: 720px;
+   margin-left: 550px;
+   margin-top: 40px;
+   position: relative;
+   display: flex;
+   flex-direction:row;
+   justify-content:flex-start;
+   align-items:center;
+   border: 1px solid black;   
+}
+.notebox1
+{
+   margin-left:20px;
+   position: relative;
+}
+.input
+{
+   height: 26px;
+   border: 0px;
+   width: 590px;
+}
+

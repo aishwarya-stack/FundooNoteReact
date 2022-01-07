@@ -1,0 +1,204 @@
+.box{
+   width: 100%;
+   height: 8vh;
+   position: static;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+ border:1pt solid black;  
+}
+.box1
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+}
+.boxa
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.boxb
+{
+   
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.box2
+{
+   
+   width: 80vw;
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+
+}
+.boxd
+{
+   margin-left: 29px;
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.boxe
+{
+   
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.searchbar{
+   width: 500px;
+   height: 30px;
+}
+.box3
+{
+   
+   width: 80vw;
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+
+}
+
+.boxf
+{
+   
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+
+}
+.boxg
+{
+   
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+
+}
+
+.boxh
+{
+   
+   position: relative;
+   display: flex;
+   flex-direction:row;
+   justify-content:flex-end;
+   align-items: center;
+
+}
+.sidebar
+{
+   position: relative;
+   display: flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items: flex-start;
+}
+.new1
+{
+   position: static;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+}
+.item1
+{
+   position: relative;
+   display: flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items:flex-start;
+
+}
+.item2
+{
+   position: relative;
+   display: flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items: flex-start;
+}
+.name1
+{
+   position: relative;
+   margin-left: 20px;
+   display: flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items: flex-start;
+}
+.name2
+{
+   position: relative;
+   margin-left: 20px;
+   display: flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items: flex-start;
+}
+.item3
+{
+   position: relative;
+   display: flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items: flex-start;
+}
+.item4
+{
+   position: relative;
+   display: flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items: flex-start;
+}
+.item5
+{
+   position: relative;
+   display: flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items:flex-start;
+}
+.box4
+{
+   position: relative;
+   display: flex;
+   flex-direction:row;
+   justify-content:flex-start;
+   align-items:center;
+}
+.boxpqr
+{
+   margin-left:20;
+   position: relative;
+   display: flex;
+   flex-direction:column;
+   justify-content:flex-start;
+   align-items:center   
+}
