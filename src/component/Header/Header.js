@@ -6,6 +6,7 @@ import search from '../img/search1.png'
 import icon from '../img/refresh.png'
 import setting from '../img/setting.png'
 import apps from '../img/apps.png'
+import loginIcon from '../img/icon5.jpg'
 // Tell webpack that Header.js uses these styles
 
 const Header = () => {
@@ -19,9 +20,9 @@ const Header = () => {
                      <img src={IMG}  alt="haederTwo"/>
                  </div>
                     <div class="boxc">
-                       <a href="Header.css">
-                          <h2><b>Keep</b></h2>
-                       </a>
+                      
+                          <h1><b>Keep</b></h1>
+                       
                  </div> 
             </div>
 
@@ -30,10 +31,11 @@ const Header = () => {
              <img src={search}  alt="SearchIcon"/>
         </div>
         <div class="boxe">
-            <input type="text" class="searchbar" />
+            <input type="text" class="searchbar" placeholder='search' />
          </div>
     </div>
-    <div class="boxf">
+    <div className='icons'>
+         <div class="boxf">
                 <img src={icon}  alt="IconImage"/>
             </div>
             <div class="boxg">
@@ -42,6 +44,10 @@ const Header = () => {
             <div class="boxh">
                 <img src={setting}  alt="sSettingImage"/>
 
+            </div>
+            <div class="boxi">
+                <img src={loginIcon}  alt="SettingImage"/>
+        </div>
             </div>
     </div>
     

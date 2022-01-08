@@ -1,7 +1,9 @@
 .notebox
 {
+     box-shadow: 5px 10px 18px lightgrey;
+    border-radius: 10px;
    height: 60px;
-   width: 720px;
+   width: 750px;
    margin-left: 550px;
    margin-top: 40px;
    position: relative;
@@ -9,7 +11,17 @@
    flex-direction:row;
    justify-content:flex-start;
    align-items:center;
-   border: 1px solid black;   
+   border: 1px solid lightgray;   
+}
+.icon
+{
+   margin-left:10px;
+   position: relative; 
+}
+.brush
+{
+   margin-left:10px;
+   position: relative;
 }
 .notebox1
 {

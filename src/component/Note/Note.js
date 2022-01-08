@@ -15,8 +15,8 @@ const Note = () =>
     
      <img src={checkbox}  alt="checkbox"/>
      
-      <img src={icon}  alt="icon"/>
-      <img src={brush}  alt="brush"/>
+      <img src={icon} className='icon' alt="icon"/>
+      <img src={brush} className='brush' alt="brush"/>
   </div>
   )
 }
