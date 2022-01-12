@@ -13,22 +13,22 @@
 }
 .first,.four
 {
-  font-size: 25px;
+  font-size: 29px;
  color: darkturquoise;
 }
 .third
 {
-    font-size: 25px;
+    font-size: 29px;
     color: yellow;
 }
 .five
 {
-    font-size: 25px;
+    font-size: 29px;
     color: green;
 }
 .second,.Six
 {
-    font-size: 25px;
+    font-size: 29px;
     color: red;
 }
 .info
@@ -41,12 +41,21 @@
 {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
+    position: relative;  
 }
 .Headingnew
 {
+     margin-top: 10px;
+    position: relative;  
     display: flex;
     flex-direction:column;
-    margin-left: 400px; 
+    justify-content: flex-start;
+}
+.headingtwo{
+    display: flex;
+    flex-direction: row;
+    
 }
 .name
 {
@@ -63,7 +72,7 @@
 }
 .lastname
 {
-    margin-left: 10px;
+    margin-left: 15px;
     position: relative;
     display: flex;
     flex-direction:row;
@@ -76,7 +85,7 @@
     justify-content: flex-start;
     margin-top: 10px;
     position: relative;  
-    width: 290px;
+    width: 250px;
 }
 #email
 {
@@ -125,22 +134,21 @@
 }
 .button
 {
-    display: flex;
-    flex-direction:column;
-}
-.link
-{
-    margin-top: 40px;
+    margin-top: 20px;
+   
     position: relative;
+    align-items:center;
     display: flex;
-    flex-direction:row;
-    justify-content: flex-start;
+    flex-direction: row;
 }
+
 .btn{
+    margin-left: 200px;
     position: relative;
-    display: flex;
-    flex-direction:row;
     justify-content: flex-end;
+    display: flex;
+    flex-direction: row;   
+
 }
 .image
 {
@@ -148,3 +156,10 @@
     flex-direction:row;
     width: 290px;
 }
+.signin
+{
+    
+    position: relative;
+    display: flex;
+    flex-direction:row;   
+}   
