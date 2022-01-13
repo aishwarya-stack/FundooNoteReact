@@ -13,8 +13,8 @@ class App extends Component{
        {/* <Header/>       
       <Note/>
       <NoteTwo/> */}
-      <SignIn/>
-      {/* <SignUp/> */}
+      {/* <SignIn/> */}
+      <SignUp/>
      
       </div>
     );
