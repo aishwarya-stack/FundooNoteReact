@@ -52,29 +52,61 @@ const SignUp = () => {
 
       
       if (firstnameTest) {
-        setRegexObj({ ...regexObj, firstnameBorder: false, firstnameHelperText:"" })
+        setRegexObj(regexObj =>({
+          ...regexObj,
+           firstnameBorder: false,
+           firstnameHelperText:""
+        }));
       }
       else {
-        setRegexObj({ ...regexObj, firstnameBorder: true, firstnameHelperText: "enter correct firstname" })
+        setRegexObj(regexObj =>({
+          ...regexObj,
+           firstnameBorder: true,
+           firstnameHelperText:"enter correct firstname"
+        })); 
       }
       if (lastnameTest) {
-        setRegexObj({ ...regexObj, lastnameBorder: false, lastnameHelperText:"" })
+        setRegexObj(regexObj =>({
+          ...regexObj,
+           lastnameBorder: false,
+           lastnameHelperText:""
+        }));
       }
       else {
-        setRegexObj({ ...regexObj, lastnameBorder: true, lastnameHelperText: "enter correct lastname" })
+        setRegexObj(regexObj =>({
+          ...regexObj,
+           lastnameBorder: true,
+           lastnameHelperText:"enter correct lastname"
+        }));
       }
       if (emailTest) {
-        setRegexObj({ ...regexObj, emailBorder: false, emailHelperText:"" })
+        setRegexObj(regexObj =>({
+          ...regexObj,
+           emailBorder: false,
+           emailHelperText:""
+        }));
       }
       else {
-        setRegexObj({ ...regexObj, emailBorder: true, emailHelperText: "enter correct email" })
+        setRegexObj(regexObj =>({
+          ...regexObj,
+           emailBorder: true,
+           emailHelperText:"enter correct email"
+        }));
       }
 
       if (passTest) {
-        setRegexObj({ ...regexObj, passBorder: false, passHelperText:"" })
+        setRegexObj(regexObj =>({
+          ...regexObj,
+           passwordBorder: false,
+           passwordHelperText:""
+        }));
       }
       else {
-        setRegexObj({ ...regexObj, passBorder: true, passHelperText: "enter correct password" })
+        setRegexObj(regexObj =>({
+          ...regexObj,
+           passwordBorder: true,
+           passwordHelperText:"enter the corret password"
+        }));
       }
 
 

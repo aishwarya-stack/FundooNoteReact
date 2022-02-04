@@ -1,5 +1,6 @@
 .noteboxtwo
 {
+    
     box-shadow: 5px 10px 18px lightgrey;
     border-radius: 10px;    height: 100px;
     width: 720px;
@@ -12,6 +13,7 @@
 }
 .rowdiv
 {
+   
     display: flex;    
     flex-direction:row;
     justify-content: flex-start;

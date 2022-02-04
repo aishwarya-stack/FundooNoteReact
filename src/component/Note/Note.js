@@ -4,13 +4,17 @@ import '../Note/Note.css'
 import icon from '../img/icon2.png'
 import checkbox from '../img/icon1.jpg'
 import brush from '../img/brush.png'
-const Note = () =>
+import NoteTwo from '../NoteTwo/NoteTwo';
+const Note = (props) =>
 {
+  const clickButton=()=>{
+    props.listenToHeader("hello")
+}
   return(
 
 <div className='notebox'>
   <div className='notebox1'>
-     <input type="text" class="input" placeholder='Take a Note..'/>
+     <input type="text" class="input" placeholder='Take a Note..' onClick={clickButton}/>
      </div>
     
      <img src={checkbox}  alt="checkbox"/>

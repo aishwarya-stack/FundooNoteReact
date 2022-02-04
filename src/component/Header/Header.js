@@ -7,15 +7,22 @@ import icon from '../img/refresh.png'
 import setting from '../img/setting.png'
 import apps from '../img/apps.png'
 import loginIcon from '../img/icon5.jpg'
+import Sidenav from '../SideNav/SideNav.jsx';
 // Tell webpack that Header.js uses these styles
 
-const Header = () => {
+const Header = (props) => {
+    const clickButton=()=>{
+            props.listenToHeader("hello")
+    }
     return (
-          <div className='box'>
+       <div className='box'>
+         
+          
               <div className='box1'>
                    <div className='boxa'>
-                      <img src={ IMG1 }  alt="Headerone"/>
+                      <img src={ IMG1 }  alt="Headerone" onClick={clickButton}/>
                   </div>
+                  
                 <div className='boxb'>
                      <img src={IMG}  alt="haederTwo"/>
                  </div>

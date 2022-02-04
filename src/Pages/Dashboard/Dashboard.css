@@ -1,0 +1,27 @@
+.notes-container{
+    height: 60vh;
+    width:60vw;
+   
+    display:flex;
+    flex-wrap:wrap;
+    position: relative;
+    left: 150px;
+    top:50px;
+    box-shadow: 5px 10px 18px lightgrey;
+    border-radius: 10px;   
+}
+.note-box{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:150px;
+    height:150px;
+    margin:30px;
+    box-shadow: 5px 10px 18px lightgrey;
+    border-radius: 10px;    
+   
+}
+.code-box-demo p {
+    margin: 0;
+  }
+  .ant-card { margin-bottom: 30px; }

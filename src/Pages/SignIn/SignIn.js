@@ -3,11 +3,13 @@ import '../SignIn/SignIn.css'
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { login } from '../../Services/userservice';
+import { useHistory } from 'react-router-dom';
 const emailRegex = /^[a-zA-Z]+[a-zA-Z0-9]*[- . + _]?[a-zA-Z0-9]+[@]{1}[a-z0-9]+[.]{1}[a-z]+[.]?[a-z]+$/;
 const passRegex = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
 
 const SignIn = () =>
 {
+let history = useHistory()
 const [email,setEmail]=React.useState("")
 const [password,setPassword]=React.useState("")
 // const [emailBorder,setEmailBorder]=React.useState(false)
@@ -33,18 +35,6 @@ if(email==="" && password==="")
 else
 {
 
-// if(emailRegex.test(email))
-//  {
-//    setRegexObj({...regexObj,emailBorder:false,emailHelperText:""})
-//  }
-// if(passRegex.test(password))
-// {
-//   setRegexObj({...regexObj,passBorder:false,passHelperText:""})
-// }
-// else
-// {
-//   setRegexObj({...regexObj,passBorder:true,passHelperText:"enter correct password",emailBorder:true,emailHelperText:"enter correct email"})
-// }
 
 let emailTest=emailRegex.test(email)
 let passTest=passRegex.test(password)
@@ -76,6 +66,10 @@ if(emailTest===true && passTest===true)
 
   login(obj).then((res)=>{
     console.log(res)
+    localStorage.setItem("userid",res.data.user_id)
+    localStorage.setItem("token",res.data.token)
+    history.push("/Dashboard")
+
   })
 .catch((err)=>
 {
